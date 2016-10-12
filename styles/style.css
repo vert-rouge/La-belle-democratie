@@ -45,6 +45,16 @@
     padding-top: 20px;
     margin-top: -14px;
 }
+.content-title {
+    font-size: 32px;
+    color: #7a7a7a;
+    text-align: center;
+}
+.pseudo-lettrine {
+    font-size: 32px;
+    position: relative;
+    bottom: 0px;
+}
 .texte-haut {
     text-align: right;
     font-style: italic;
