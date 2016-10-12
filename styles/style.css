@@ -1,0 +1,149 @@
+@font-face {
+    font-family: MoonFlower;
+    src: url(../fonts/moon_flower.ttf);
+}
+@font-face {
+    font-family: MoonFlower;
+    src: url(../fonts/moon_flower_bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: constan;
+    src: url(../fonts/constan.ttf);
+}
+@font-face {
+    font-family: constan;
+    src: url(../fonts/constanb.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: constan;
+    src: url(../fonts/constani.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: constan;
+    src: url(../fonts/constanz.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hero {
+    text-align: right;
+    color:#000000;
+    font-family: MoonFlower, Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    line-height: 1.2em;
+}
+.hero_emphasis {
+    color:#FFFFFF;
+    font-size: 96px;
+    letter-spacing: -0.07em;
+}
+.contenu {
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    margin-top: -14px;
+}
+.texte-haut {
+    text-align: right;
+    font-style: italic;
+    font-size: 16px;
+}
+.texte-haut span {
+    color: #b2511c;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+.texte-milieu {
+    text-align: center;
+    font-size: 10px;
+}
+.texte-milieu span {
+    color: #76bced;
+    font-style: normal;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 32px;
+}
+.texte-bas {
+    text-align: center;
+}
+.texte-bas .emphasis{
+    font-size: 18px; 
+}
+.menu-title{
+    color: #76bced;
+    font-family: MoonFlower, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -0.07em;
+}
+.menu {
+    text-align: right;
+    font-size: 10px;
+}
+.menu a {
+    color: #7a7a7a;
+    font-size: 13px;
+}
+.menu a:hover {
+    color: #000000;
+    text-decoration: none;
+    font-size: 11px;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu p {
+    margin-bottom: 0px;
+}
+.menu .une_vague {
+    background: white;
+    background-image: url(images/menu-1vague2.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+}
+.menu .deux_vagues {
+    background: white;
+    background-image: url(images/menu-2vagues.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+}
+.menu .trois_vagues {
+    background: white;
+    background-image: url(images/menu-3vagues.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 30px;
+}
+.disabled {
+    color: #9a9a9a;
+}
+hr{
+    background:url(images/separateur.jpg) no-repeat top center;
+    border: 0;
+}
+.pied-page {
+    color: #ffffff;
+    line-height: 1em;
+    font-size:11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 21px;
+    background-image: url(images/pied-page-vague.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    font-style: italic;
+}
+
+body {
+    background-color: #909090;
+    font-family: constan, Helvetica, Arial, sans-serif;
+    line-height: normal;
+    font-size: 14px;
+}
+
